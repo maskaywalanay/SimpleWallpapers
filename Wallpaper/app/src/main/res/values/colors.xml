@@ -10,6 +10,12 @@
 	<color name="accent_red">#F80054</color>
 	<color name="accent_blue">#62A5FC</color>
 	
+	<!-- Accent Progress -->
+	<color name="start_progress">#FDFDFD</color>
+	<color name="center_progress">@color/fill_progress</color>
+	<color name="end_progress">#FF6F00</color>
+	<color name="fill_progress">#FFB900</color>
+	
 	
 	
 </resources>

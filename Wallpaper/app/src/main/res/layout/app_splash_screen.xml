@@ -2,12 +2,20 @@
 <RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="@dimen/match_parent"
-	android:layout_height="@dimen/match_parent">
+	android:layout_height="@dimen/match_parent"
+	android:background="@color/start_progress">
+
+	<ImageView
+		android:layout_height="@dimen/ic_splash_border_height"
+		android:layout_width="@dimen/ic_splash_border_width"
+		android:src="@drawable/splash_border"
+		android:layout_centerInParent="true"
+		android:scaleType="fitCenter"/>
 
 	<ImageView
 		android:layout_height="@dimen/ic_img_splash_height"
 		android:layout_width="@dimen/ic_img_splash_width"
-		android:src="@drawable/ic_splash"
+		android:src="@drawable/splash"
 		android:scaleType="fitXY"
 		android:layout_centerInParent="true"
 		android:id="@+id/img_splash"/>
@@ -20,7 +28,9 @@
 		android:layout_marginBottom="@dimen/app_progress_margin_bottom"
 		android:layout_marginLeft="@dimen/app_progress_margin_left"
 		android:layout_marginRight="@dimen/app_progress_margin_right"
-		android:id="@+id/splash_progress"/>
+		android:id="@+id/splash_progress"
+		android:indeterminateDrawable="@drawable/app_splash_progress"
+		android:indeterminate="true"/>
 
 	<TextView
 		android:layout_height="wrap_content"
