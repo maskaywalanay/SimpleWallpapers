@@ -7,9 +7,18 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+		
+		<!-- Aktivitas Utama -->
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name="id.limited.apps.wp.MainActivity"
+            android:label="@string/app_name"
+			android:theme="@style/AppTheme"
+			android:configChanges="screenSize"/>
+            
+		<!-- Splash Screen Activity -->
+		<activity
+            android:name="id.limited.apps.wp.AppSplash"
+            android:theme="@android:style/Theme.Material.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

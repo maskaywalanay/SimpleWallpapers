@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Wallpaper</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">Project Wallpaper</string>
+	<string name="app_splash_text">Loading ...</string>
+    <string name="app_toast_a">Selamat Datang ...</string>
+	<string name="app_toast_b">Menutup Aplikasi</string>
 </resources>

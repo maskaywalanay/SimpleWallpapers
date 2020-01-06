@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	<!-- AppTheme -->
+    <style 
+		name="AppTheme" 
+		parent="@style/Theme.AppCompat"/>
+	
+	<!-- TextStyle A -->
+	<style name="AppTextSatu">
+		<item name="android:textSize">16dp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:shadowRadius">2.0</item>
+		<item name="android:shadowDy">2.0</item>
+		<item name="android:shadowDx">1.0</item>
+		<item name="android:shadowColor">#ff00ff</item>
 	</style>
+	
+	
+	
 </resources>

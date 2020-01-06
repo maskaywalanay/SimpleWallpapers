@@ -1,15 +1,23 @@
 package id.limited.apps.wp;
 
-import android.app.*;
 import android.os.*;
+import android.support.v7.app.*;
 
-public class MainActivity extends Activity 
+public class MainActivity extends AppCompatActivity 
 {
+	
+	void create(){
+		String s = "senin 6 januari 2020";
+	}
 	// first commit
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+		
+		
+		
+		
     }
 }

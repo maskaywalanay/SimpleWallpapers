@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Accent Color Satu -->
+	<color name="app_accent_a">@*android:color/transparent</color>
+	<color name="app_accent_b">@*android:color/black</color>
+	<color name="app_accent_c">@*android:color/white</color>
+	<color name="semi_transparent">#60000000</color>
+	<color name="accent_green">#00CF45</color>
+	<color name="accent_red">#F80054</color>
+	<color name="accent_blue">#62A5FC</color>
+	
+	
+	
+</resources>
