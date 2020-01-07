@@ -26,6 +26,13 @@
 	<dimen name="app_text_splash_margin_bottom">16dp</dimen>
 	<dimen name="app_text_splash_padding_bottom">7dp</dimen>
 	
-	
+	<!-- Drawer -->
+	<dimen name="app_drawer_width">320dp</dimen>
+	<dimen name="app_drawer_height">@dimen/match_parent</dimen>
+	<dimen name="app_drawer_margin">8dp</dimen>
+	<dimen name="drawer_elevation">4dp</dimen>
+	<dimen name="drawer_minheight">55dp</dimen>
+	<dimen name="drawer_padding">16dp</dimen>
+	<dimen name="drawer_img_size">38dp</dimen>
 	
 </resources>

@@ -2,28 +2,26 @@ package id.limited.apps.wp;
 import android.view.*;
 import android.content.*;
 import android.util.*;
+import android.animation.*;
 
 public class GradientSplash extends View
 {
-	
-	static final String RED = "#FF0000";
-	static final String GREEN = "#FF00FF00";
-	static final String BLUE = "#FF0000FF";
-	
-	
-	public GradientSplash(Context c, AttributeSet attr, int defStyle){
-		super(c, attr, defStyle);
-		
-	}
-
-	
+	private static final int RED = 0xFFFF0000;
+	private static final int GREEN = 0xFF00FF00;
+	private static final int BLUE = 0xFF0000FF;
+	private static final int TRANSPARENT = 0x00000000;
 	
 	public GradientSplash(Context c, AttributeSet attr){
 		super(c, attr);
-	}
-	
-	public GradientSplash(Context c){
-		super(c);
+		
+		View mView = (View)findViewById(R.id.gradient_splash);
+		ObjectAnimator Views = ObjectAnimator.ofInt(mView,"backgroundColor",RED,GREEN,BLUE,TRANSPARENT);
+		Views.setDuration(3000);
+		Views.setEvaluator(new ArgbEvaluator());
+		Views.setRepeatCount(ValueAnimator.INFINITE);
+		Views.setRepeatMode(ValueAnimator.RESTART);
+		Views.start();
 		
 	}
+	
 }

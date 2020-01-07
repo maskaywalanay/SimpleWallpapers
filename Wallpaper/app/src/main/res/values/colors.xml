@@ -16,6 +16,11 @@
 	<color name="end_progress">#FF6F00</color>
 	<color name="fill_progress">#FFB900</color>
 	
-	
+	<!-- UI/UX Main -->
+	<color name="ui_accent_a">@color/fill_progress</color>
+	<color name="ui_accent_b">@color/accent_green</color>
+	<color name="ui_accent_c">@color/accent_blue</color>
+	<color name="ui_accent_d">@color/fill_progress</color>
+	<color name="ui_accent_e">@color/fill_progress</color>
 	
 </resources>

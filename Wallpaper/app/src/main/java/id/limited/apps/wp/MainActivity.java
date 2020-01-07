@@ -3,6 +3,8 @@ package id.limited.apps.wp;
 import android.os.*;
 import android.support.v7.app.*;
 import android.widget.*;
+import android.view.View.*;
+import android.view.*;
 
 public class MainActivity extends AppCompatActivity 
 {
@@ -11,7 +13,9 @@ public class MainActivity extends AppCompatActivity
 		String s = "senin 6 januari 2020";
 	}
 	
-	// first commit
+	LinearLayout ln0;
+	
+	
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -20,7 +24,17 @@ public class MainActivity extends AppCompatActivity
 		
 		Toast.makeText(getApplicationContext(),R.string.app_toast_a,Toast.LENGTH_SHORT).show();
 		
-		
+		ln0 = (LinearLayout)findViewById(R.id.sc_facebook);
+		ln0.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					// TODO: Implement this method
+				}
+				
+			
+		});
 		
     }
 }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="@dimen/match_parent"
+	android:layout_height="@dimen/match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_margin="@dimen/app_drawer_margin"
+		android:elevation="@dimen/drawer_elevation"
+		android:background="@drawable/bg_relative"
+		android:layout_height="@dimen/match_parent"
+		android:layout_width="@dimen/match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/sc_facebook"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@android:drawable/ic_delete"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppTextSatu"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_facebook_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

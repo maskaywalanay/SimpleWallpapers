@@ -1,9 +1,38 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
 
-	<!-- firat commit -->
-    
+	<FrameLayout
+		android:id="@+id/app_content"
+		android:layout_height="@dimen/match_parent"
+		android:layout_width="@dimen/match_parent">
+		
+		<include
+			layout="@layout/app_wallpaper"/>
+
+			<android.support.v4.widget.DrawerLayout
+				android:layout_height="@dimen/match_parent"
+				android:layout_width="@dimen/match_parent"
+				android:id="@+id/drawer_layout"
+				android:layout_gravity="start|left">
+					
+				<LinearLayout
+					android:id="@+id/container_page"
+					android:layout_gravity="start|left"
+					android:layout_height="@dimen/app_drawer_height"
+					android:layout_width="@dimen/app_drawer_width">
+					
+					<include
+						layout="@layout/app_drawer_main"/>
+					
+				</LinearLayout>
+				
+			</android.support.v4.widget.DrawerLayout>
+
+	</FrameLayout>
 
 </LinearLayout>
+

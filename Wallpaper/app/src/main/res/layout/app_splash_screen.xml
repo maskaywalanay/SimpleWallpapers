@@ -4,6 +4,12 @@
 	android:layout_width="@dimen/match_parent"
 	android:layout_height="@dimen/match_parent"
 	android:background="@color/start_progress">
+	
+	<!-- Gradient Splash -->
+	<id.limited.apps.wp.GradientSplash
+		android:id="@+id/gradient_splash"
+		android:layout_height="@dimen/match_parent"
+		android:layout_width="@dimen/match_parent"/>
 
 	<ImageView
 		android:layout_height="@dimen/ic_splash_border_height"

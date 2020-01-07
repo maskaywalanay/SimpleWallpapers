@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<WebView
+		android:id="@+id/ra_sites"
+		android:layout_height="@dimen/match_parent"
+		android:layout_width="@dimen/match_parent"
+		/>
+
+</LinearLayout>
+

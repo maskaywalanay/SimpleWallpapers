@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="@dimen/match_parent"
+	android:layout_height="@dimen/match_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<RelativeLayout
+		android:elevation="@dimen/drawer_elevation"
+		android:background="@drawable/bg_relative"
+		android:layout_margin="@dimen/app_drawer_margin"
+		android:layout_height="@dimen/match_parent"
+		android:layout_width="@dimen/match_parent">
+
+			<LinearLayout
+				android:layout_height="@dimen/match_parent"
+				android:layout_width="@dimen/match_parent"
+				android:orientation="vertical"
+				android:gravity="center"
+				android:id="@+id/kontent_wp">
+
+			</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
