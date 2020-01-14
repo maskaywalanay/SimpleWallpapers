@@ -6,16 +6,12 @@
 	<dimen name="match_parent">-1dp</dimen>
 	
 	<!-- IC Img Splash -->
-	<dimen name="ic_img_splash_width">200dp</dimen>
-	<dimen name="ic_img_splash_height">200dp</dimen>
-	
-	<!-- Border / Background -->
-	<dimen name="ic_splash_border_width">300dp</dimen>
-	<dimen name="ic_splash_border_height">300dp</dimen>
+	<dimen name="ic_img_splash_width">120dp</dimen>
+	<dimen name="ic_img_splash_height">120dp</dimen>
 	
 	<!-- progress bar -->
 	<dimen name="app_progress_width">@dimen/match_parent</dimen>
-	<dimen name="app_progress_height">15dp</dimen>
+	<dimen name="app_progress_height">10dp</dimen>
 	<dimen name="app_progress_margin_left">16dp</dimen>
 	<dimen name="app_progress_margin_right">16dp</dimen>
 	<dimen name="app_progress_margin_bottom">16dp</dimen>
@@ -26,6 +22,13 @@
 	<dimen name="app_text_splash_margin_bottom">16dp</dimen>
 	<dimen name="app_text_splash_padding_bottom">7dp</dimen>
 	
+	<!-- App Wallpaper -->
+	<dimen name="konten_wp_margin_top">10dp</dimen>
+	<dimen name="konten_wp_margin_bottom">10dp</dimen>
+	<dimen name="konten_wp_padding_top">8dp</dimen>
+	<dimen name="konten_wp_padding_bottom">8dp</dimen>
+	<dimen name="konten_wp_height">210dp</dimen>
+	
 	<!-- Drawer -->
 	<dimen name="app_drawer_width">320dp</dimen>
 	<dimen name="app_drawer_height">@dimen/match_parent</dimen>
@@ -34,5 +37,23 @@
 	<dimen name="drawer_minheight">55dp</dimen>
 	<dimen name="drawer_padding">16dp</dimen>
 	<dimen name="drawer_img_size">38dp</dimen>
+	
+	<!-- Preview Wallpaper -->
+	<dimen name="status_bar_width">@dimen/match_parent</dimen>
+	<dimen name="status_bar_height">24dp</dimen>
+	<dimen name="frame_width">250dp</dimen>
+	<dimen name="frame_height">450dp</dimen>
+	<dimen name="frame_elevation">4dp</dimen>
+	<dimen name="stat_sys_signal_width">20dp</dimen>
+	<dimen name="stat_sys_signal_height">20dp</dimen>
+	<dimen name="stat_sys_battery_width">30dp</dimen>
+	<dimen name="stat_sys_battery_height">14dp</dimen>
+	<dimen name="stat_sys_textsize">12dp</dimen>
+	<dimen name="pre_icon_container_margin_left">10dp</dimen>
+	<dimen name="pre_icon_container_margin_right">10dp</dimen>
+	<dimen name="pre_icon_container_margin_bottom">8dp</dimen>
+	<dimen name="indicator_marinbottom">45dp</dimen>
+	<dimen name="button_margin">10dp</dimen>
+	
 	
 </resources>

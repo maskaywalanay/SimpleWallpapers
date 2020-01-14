@@ -7,7 +7,7 @@
 	
 	<!-- TextStyle A -->
 	<style name="AppTextSatu">
-		<item name="android:textSize">16dp</item>
+		<item name="android:textSize">@dimen/app_title_size</item>
 		<item name="android:textStyle">normal</item>
 		<item name="android:textColor">@color/app_accent_b</item>
 		<item name="android:typeface">serif</item>
@@ -17,6 +17,40 @@
 		<item name="android:shadowColor">@color/semi_transparent</item>
 	</style>
 	
+	<!-- Drawer text -->
+	<style name="AppDrawerText">
+		<item name="android:textSize">@dimen/app_title_size</item>
+		<item name="android:textColor">@color/app_accent_c</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:shadowRadius">2.0</item>
+		<item name="android:shadowDy">2.0</item>
+		<item name="android:shadowDx">1.0</item>
+		<item name="android:shadowColor">@color/semi_transparent</item>
+	</style>
+	
+	<!-- Statusbar Text Preview -->
+	<style name="StatusBarText">
+		<item name="android:textSize">@dimen/stat_sys_textsize</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textColor">@color/stat_sys_textcolor</item>
+	</style>
+	
+	<!-- Facebook Theme -->
+	<style 
+		name="FreeFacebook"
+		parent="@android:style/Theme.Material.Light.NoActionBar"/>
+	
+	<!-- Youtube Theme -->
+	<style 
+		name="YtSite"
+		parent="@android:style/Theme.Material.Light.NoActionBar"/>
+	
+	<!-- My Site Theme -->
+	<style 
+		name="RASites"
+		parent="@android:style/Theme.Material.Light.NoActionBar"/>
 	
 	
 </resources>

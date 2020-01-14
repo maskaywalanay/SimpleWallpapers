@@ -3,20 +3,13 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="@dimen/match_parent"
 	android:layout_height="@dimen/match_parent"
-	android:background="@color/start_progress">
+	android:background="@color/fill_progress">
 	
 	<!-- Gradient Splash -->
 	<id.limited.apps.wp.GradientSplash
 		android:id="@+id/gradient_splash"
-		android:layout_height="@dimen/match_parent"
-		android:layout_width="@dimen/match_parent"/>
-
-	<ImageView
-		android:layout_height="@dimen/ic_splash_border_height"
-		android:layout_width="@dimen/ic_splash_border_width"
-		android:src="@drawable/splash_border"
-		android:layout_centerInParent="true"
-		android:scaleType="fitCenter"/>
+		android:layout_height="0dp"
+		android:layout_width="0dp"/>
 
 	<ImageView
 		android:layout_height="@dimen/ic_img_splash_height"

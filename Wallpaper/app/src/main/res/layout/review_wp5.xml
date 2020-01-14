@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/wp_5">
+
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:background="@color/stat_semi_transparent">
+
+		<FrameLayout
+			android:layout_marginTop="25dp"
+			android:layout_height="@dimen/frame_height"
+			android:layout_width="@dimen/frame_width"
+			android:layout_gravity="top|center"
+			android:elevation="@dimen/frame_elevation">
+
+			<ImageView
+				android:id="@+id/wallpaper_5"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:src="@drawable/wp_5"
+				android:scaleType="fitXY"/>
+
+			<LinearLayout
+				android:layout_height="@dimen/status_bar_height"
+				android:layout_width="@dimen/status_bar_width"
+				android:orientation="horizontal"
+				android:gravity="center"
+				android:layout_gravity="top|center">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:orientation="horizontal"
+					android:layout_weight="1.0"
+					android:gravity="left|center">
+
+					<ImageView
+						android:layout_height="@dimen/stat_sys_signal_height"
+						android:layout_width="@dimen/stat_sys_signal_width"
+						android:src="@drawable/stat_sys_signal_4"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:orientation="horizontal"
+					android:layout_weight="1.0"
+					android:gravity="center">
+
+					<TextClock
+						style="@style/StatusBarText"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_gravity="center"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:orientation="horizontal"
+					android:layout_weight="1.0"
+					android:gravity="right|center">
+
+					<id.limited.apps.wp.BatteryStatus
+						android:layout_gravity="right|center"
+						android:layout_height="@dimen/stat_sys_battery_height"
+						android:layout_width="@dimen/stat_sys_battery_width"
+						android:background="@null"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<ImageView
+				android:elevation="@dimen/drawer_elevation"
+				android:layout_height="@dimen/drawer_elevation"
+				android:layout_width="@dimen/stat_sys_battery_width"
+				android:src="@drawable/indicator"
+				android:layout_gravity="bottom|center"
+				android:layout_marginBottom="@dimen/indicator_marinbottom"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:layout_gravity="bottom"
+				android:id="@+id/pre_icon"
+				android:layout_marginBottom="@dimen/pre_icon_container_margin_bottom"
+				android:layout_marginLeft="@dimen/pre_icon_container_margin_left"
+				android:layout_marginRight="@dimen/pre_icon_container_margin_right"
+				android:gravity="center">
+
+				<ImageView
+					android:layout_height="@dimen/stat_sys_battery_width"
+					android:layout_width="0dp"
+					android:src="@drawable/ic_fblite"
+					android:layout_weight="0.5"/>
+
+				<ImageView
+					android:layout_weight="0.5"
+					android:layout_height="@dimen/stat_sys_battery_width"
+					android:layout_width="0dp"
+					android:src="@drawable/ic_yt"/>
+
+				<ImageView
+					android:layout_weight="0.5"
+					android:layout_height="@dimen/stat_sys_battery_width"
+					android:layout_width="0dp"
+					android:src="@drawable/ic_whatsapp"/>
+
+				<ImageView
+					android:layout_weight="0.5"
+					android:layout_height="@dimen/stat_sys_battery_width"
+					android:layout_width="0dp"
+					android:src="@drawable/ic_insta"/>
+
+			</LinearLayout>
+
+		</FrameLayout>
+
+		<Button
+			android:id="@+id/setwp_2"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Set As Wallpaper"
+			android:layout_gravity="bottom"
+			android:layout_marginBottom="@dimen/button_margin"
+			android:layout_marginLeft="@dimen/button_margin"
+			android:layout_marginRight="@dimen/button_margin"/>
+
+	</FrameLayout>
+
+</LinearLayout>
+

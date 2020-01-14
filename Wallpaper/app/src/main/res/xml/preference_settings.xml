@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen
+		android:title="Pengaturan Aplikasi"
+		android:summary="y"/>
+	<SwitchPreference
+		android:title="Turn Off"
+		android:summary="Cahaya biru"
+		android:key="test"/>
+	<SwitchPreference
+		android:title="Turn Off"
+		android:summary="Cahaya biru"
+		android:key="test"/>
+	<SwitchPreference
+		android:title="Turn Off"
+		android:summary="Cahaya biru"
+		android:key="test"/>
+	
+	
+</PreferenceScreen>

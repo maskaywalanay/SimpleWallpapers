@@ -5,12 +5,16 @@
 	<string name="app_splash_text">Loading ...</string>
     <string name="app_toast_a">Selamat Datang ...</string>
 	<string name="app_toast_b">Menutup Aplikasi</string>
+	<string name="drawer_facebook_free">Free Facebook</string>
 	<string name="drawer_facebook_sc">Facebook</string>
 	<string name="drawer_facebooklite_sc">Facebook Lite</string>
 	<string name="drawer_messenger_sc">Messenger</string>
 	<string name="drawer_messengerlite_sc">Messenger Lite</string>
 	<string name="drawer_youtube_sc">Youtube</string>
 	<string name="drawer_youtubeweb_sc">Youtube Web</string>
+	<string name="drawer_preference">Pengaturan</string>
+	<string name="drawer_exit">Exit</string>
+	<string name="my_sites">Republik Android</string>
 	
 	
 </resources>

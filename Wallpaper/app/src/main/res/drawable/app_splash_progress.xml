@@ -4,7 +4,7 @@
 	<item>
 		<shape>
 			<solid 
-				android:color="@color/fill_progress"/>
+				android:color="@color/semi_transparent"/>
 			<corners
 				android:radius="@dimen/app_progress_radius"/>
 		</shape>
@@ -15,9 +15,8 @@
 				<item>
 					<shape>
 						<gradient 
-							android:startColor="@color/start_progress"
-							android:centerColor="@color/center_progress"
-							android:endColor="@color/end_progress"
+							android:startColor="@color/accent_white"
+							android:endColor="@color/accent_green"
 							angle="90.0"/>
 						<corners
 							android:radius="@dimen/app_progress_radius"/>

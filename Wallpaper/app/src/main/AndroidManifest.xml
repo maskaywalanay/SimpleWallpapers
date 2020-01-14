@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.limited.apps.wp" >
-
+	
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WALLPAPER"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+		
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -25,6 +29,50 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+		
+		<!-- FreeFacebook -->
+		<activity
+			android:name="id.sosmed.FreeFacebookSite"
+			android:theme="@style/FreeFacebook"/>
+		
+		<!-- Youtube -->
+		<activity
+			android:name="id.sosmed.YoutubeSite"
+			android:theme="@style/YtSite"/>
+		
+		<activity
+			android:name="id.limited.apps.wp.RASites"
+			android:theme="@style/RASites"/>
+		
+		<activity
+			android:name="id.limited.Settings.Preferensi"
+			android:theme="@style/RASites"/>
+		
+		<!-- preview wallpaper 1-->
+		<activity
+			android:name="id.limited.Walpapers.PreviewWp"
+			android:theme="@style/AppTheme"/>
+		
+		<!-- preview wallpaper 2-->
+		<activity
+			android:name="id.limited.Walpapers.PreviewWp1"
+			android:theme="@style/AppTheme"/>
+		
+		<!-- preview wallpaper 3-->
+		<activity
+			android:name="id.limited.Walpapers.PreviewWp2"
+			android:theme="@style/AppTheme"/>
+		
+		<!-- preview wallpaper 4-->
+		<activity
+			android:name="id.limited.Walpapers.PreviewWp3"
+			android:theme="@style/AppTheme"/>
+		
+		<!-- preview wallpaper 5-->
+		<activity
+			android:name="id.limited.Walpapers.PreviewWp4"
+			android:theme="@style/AppTheme"/>
+		
     </application>
 
 </manifest>

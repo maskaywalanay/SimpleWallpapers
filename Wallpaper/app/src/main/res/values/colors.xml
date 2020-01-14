@@ -9,7 +9,7 @@
 	<color name="accent_green">#00CF45</color>
 	<color name="accent_red">#F80054</color>
 	<color name="accent_blue">#62A5FC</color>
-	
+	<color name="accent_white">#fffafafa</color>
 	<!-- Accent Progress -->
 	<color name="start_progress">#FDFDFD</color>
 	<color name="center_progress">@color/fill_progress</color>
@@ -22,5 +22,12 @@
 	<color name="ui_accent_c">@color/accent_blue</color>
 	<color name="ui_accent_d">@color/fill_progress</color>
 	<color name="ui_accent_e">@color/fill_progress</color>
+	<color name="stat_semi_transparent">#65000000</color>
+	<color name="stat_sys_textcolor">@color/accent_white</color>
+	
+	<!-- Indicator -->
+	<color name="fill_indicator">#fffbfbfb</color>
+	<color name="small_indicator">#ff909090</color>
+	
 	
 </resources>

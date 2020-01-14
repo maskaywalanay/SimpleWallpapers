@@ -26,14 +26,222 @@
 			<ImageView
 				android:layout_height="@dimen/drawer_img_size"
 				android:layout_width="@dimen/drawer_img_size"
-				android:src="@android:drawable/ic_delete"
+				android:src="@drawable/sc_facebook"
 				android:scaleType="fitCenter"/>
 
 			<TextView
-				style="@style/AppTextSatu"
+				style="@style/AppDrawerText"
 				android:layout_height="wrap_content"
 				android:layout_width="match_parent"
 				android:text="@string/drawer_facebook_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/sc_facebook_lite"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_facebook"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_facebooklite_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/sc_messenger"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_messenger"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_messenger_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/sc_messenger_lite"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_messenger"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_messengerlite_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/sc_youtube"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_youtube"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_youtube_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/sc_youtube_web"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_youtube"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_youtubeweb_sc"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/sc_facebook_free"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_facebook"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_facebook_free"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:id="@+id/drawer_preference"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_exit"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_preference"
+				android:gravity="left|center"
+				android:paddingLeft="@dimen/drawer_padding"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/drawer_exit"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:minHeight="@dimen/drawer_minheight"
+			android:gravity="center_vertical"
+			android:paddingLeft="@dimen/drawer_padding"
+			android:paddingRight="@dimen/drawer_padding">
+
+			<ImageView
+				android:layout_height="@dimen/drawer_img_size"
+				android:layout_width="@dimen/drawer_img_size"
+				android:src="@drawable/sc_exit"
+				android:scaleType="fitCenter"/>
+
+			<TextView
+				style="@style/AppDrawerText"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/drawer_exit"
 				android:gravity="left|center"
 				android:paddingLeft="@dimen/drawer_padding"/>
 
