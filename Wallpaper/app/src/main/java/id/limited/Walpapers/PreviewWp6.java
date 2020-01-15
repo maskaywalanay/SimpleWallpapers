@@ -5,46 +5,43 @@ import id.limited.apps.wp.*;
 import android.widget.*;
 import android.view.View.*;
 import android.view.*;
-import android.content.*;
-import android.graphics.*;
 import java.io.*;
 
-public class PreviewWp extends Activity
+public class PreviewWp6 extends Activity
 {
-
-	Button b;
-	ImageView wallpaper;
 	
+	Button bt7;
+	ImageView iv7;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.review_wp1);
+		setContentView(R.layout.review_wp7);
 		
-		wallpaper = (ImageView)findViewById(R.id.wallpaper_1);
+		bt7 = (Button)findViewById(R.id.setwp_7);
+		iv7 = (ImageView)findViewById(R.id.wp_7);
 		
-		
-		b = (Button)findViewById(R.id.setwp_1);
-		b.setOnClickListener(new OnClickListener(){
+		bt7.setOnClickListener(new OnClickListener(){
 
 				@Override
 				public void onClick(View p1)
 				{
-					WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
+					WallpaperManager wm7 = WallpaperManager.getInstance(getApplicationContext());
 					
-					try{
-						wallpaperManager.setResource(R.drawable.wp_1);
+					try
+					{
+						wm7.setResource(R.drawable.wp_7);
 						Toast.makeText(getApplicationContext(),R.string.ic_toast_wallpaper,Toast.LENGTH_SHORT).show();
-					}catch(IOException e){
+					}
+					catch (IOException e)
+					{
 						e.printStackTrace();
 					}
-					
 				}
-				
-			
 		});
 	}
 	
-	
+
 }

@@ -6,6 +6,7 @@ import android.widget.*;
 import android.view.View.*;
 import android.view.*;
 import android.content.*;
+import android.support.v7.widget.Toolbar;
 
 
 public class MainActivity extends AppCompatActivity 
@@ -15,8 +16,8 @@ public class MainActivity extends AppCompatActivity
 		String s = "senin 6 januari 2020";
 	}
 	
-	LinearLayout ln0, ln1, ln2, ln3, ln4, ln5, ln6, ln7, ln8;
-	ImageView img1, img2, img3, img4, img5, img6;
+	LinearLayout ln0, ln2, ln4, ln6, ln7, ln8;
+	ImageView img1, img2, img3, img4, img5, img6, img7, img8, img9;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -24,30 +25,21 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		
+		Toolbar mToolbar = (Toolbar)findViewById(R.id.ra_toolbar);
+		getSupportActionBar();
+		
 		Toast.makeText(getApplicationContext(),R.string.app_toast_a,Toast.LENGTH_SHORT).show();
 		
+		// Fix launch facebook
 		ln0 = (LinearLayout)findViewById(R.id.sc_facebook);
 		ln0.setOnClickListener(new OnClickListener(){
 
 				@Override
 				public void onClick(View p1)
 				{
-					// sementara
+					
 					Intent intent = new Intent();
-					intent.setClassName("com.facebook.catana","com.facebook.catana");
-					startActivity(intent);
-				}
-		});
-		
-		// Facebook lite
-		ln1 = (LinearLayout)findViewById(R.id.sc_facebook_lite);
-		ln1.setOnClickListener(new OnClickListener(){
-
-				@Override
-				public void onClick(View p1)
-				{
-					Intent intent = new Intent(Intent.ACTION_VIEW);
-					intent.setClassName("com.facebook.lite","com.facebook.lite.MainActivity");
+					intent.setClassName("com.facebook.katana","com.facebook.katana.activity.FbMainTabActivity");
 					startActivity(intent);
 				}
 		});
@@ -59,18 +51,10 @@ public class MainActivity extends AppCompatActivity
 				@Override
 				public void onClick(View p1)
 				{
-					Toast.makeText(getApplicationContext(),"Please Install Messenger",Toast.LENGTH_SHORT).show();
-				}
-		});
-		
-		// Messenger lite launch
-		ln3 = (LinearLayout)findViewById(R.id.sc_messenger_lite);
-		ln3.setOnClickListener(new OnClickListener(){
-
-				@Override
-				public void onClick(View p1)
-				{
-					Toast.makeText(getApplicationContext(),"Please Install Messenger lite",Toast.LENGTH_SHORT).show();
+					Intent intent = new Intent();
+					intent.setClassName("com.facebook.orca","com.facebook.orca.auth.StartScreenActivity");
+					startActivity(intent);
+					Toast.makeText(getApplicationContext(),R.string.drawer_messenger_toast,Toast.LENGTH_SHORT).show();
 				}
 		});
 		
@@ -86,18 +70,6 @@ public class MainActivity extends AppCompatActivity
 				}
 		});
 		
-		// Youtube
-		ln5 = (LinearLayout)findViewById(R.id.sc_youtube_web);
-		ln5.setOnClickListener(new OnClickListener(){
-
-				@Override
-				public void onClick(View p1)
-				{
-					Intent intent = new Intent();
-					intent.setClassName("id.limited.apps.wp","id.sosmed.YoutubeSite");
-					startActivity(intent);
-				}
-		});
 		
 		// launch web free facebook
 		ln6 = (LinearLayout)findViewById(R.id.sc_facebook_free);
@@ -198,6 +170,58 @@ public class MainActivity extends AppCompatActivity
 				{
 					Intent intent = new Intent();
 					intent.setClassName("id.limited.apps.wp","id.limited.Walpapers.PreviewWp4");
+					startActivity(intent);
+				}
+			});
+			
+			// Launch preview wallpaper 6
+			img6 = (ImageView)findViewById(R.id.wp_6);
+		img6.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					Intent intent = new Intent();
+					intent.setClassName("id.limited.apps.wp","id.limited.Walpapers.PreviewWp5");
+					startActivity(intent);
+				}
+			});
+			
+			// Launch preview wallpaper 7
+			img7 = (ImageView)findViewById(R.id.wp_7);
+			img7.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					Intent intent = new Intent();
+					intent.setClassName("id.limited.apps.wp","id.limited.Walpapers.PreviewWp6");
+					startActivity(intent);
+				}
+			});
+			
+			// Launch preview wallpaper 8
+			img8 = (ImageView)findViewById(R.id.wp_8);
+			img8.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					Intent intent = new Intent();
+					intent.setClassName("id.limited.apps.wp","id.limited.Walpapers.PreviewWp7");
+					startActivity(intent);
+				}
+			});
+			
+			// Launch preview wallpaper 9
+			img9 = (ImageView)findViewById(R.id.wp_9);
+			img9.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					Intent intent = new Intent();
+					intent.setClassName("id.limited.apps.wp","id.limited.Walpapers.PreviewWp8");
 					startActivity(intent);
 				}
 			});

@@ -126,11 +126,11 @@
 		</FrameLayout>
 
 		<Button
-			android:id="@+id/setwp_2"
+			android:id="@+id/setwp_5"
 			style="?android:attr/buttonStyleSmall"
 			android:layout_height="wrap_content"
 			android:layout_width="match_parent"
-			android:text="Set As Wallpaper"
+			android:text="@string/ic_btn_wallpaper"
 			android:layout_gravity="bottom"
 			android:layout_marginBottom="@dimen/button_margin"
 			android:layout_marginLeft="@dimen/button_margin"

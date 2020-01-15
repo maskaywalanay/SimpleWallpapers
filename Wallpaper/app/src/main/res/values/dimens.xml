@@ -9,6 +9,16 @@
 	<dimen name="ic_img_splash_width">120dp</dimen>
 	<dimen name="ic_img_splash_height">120dp</dimen>
 	
+	<!-- Toolbar -->
+	<dimen name="toolbar_height">40dp</dimen>
+	<dimen name="toolbar_elevation">4dp</dimen>
+	<dimen name="toolbar_margin">@dimen/app_drawer_margin</dimen>
+	<dimen name="toolbar_icon_width">30dp</dimen>
+	<dimen name="toolbar_icon_height">30dp</dimen>
+	<dimen name="toolbar_textSize">16dp</dimen>
+	<dimen name="toolbar_text_marginleft">38dp</dimen>
+	
+	
 	<!-- progress bar -->
 	<dimen name="app_progress_width">@dimen/match_parent</dimen>
 	<dimen name="app_progress_height">10dp</dimen>
@@ -37,13 +47,15 @@
 	<dimen name="drawer_minheight">55dp</dimen>
 	<dimen name="drawer_padding">16dp</dimen>
 	<dimen name="drawer_img_size">38dp</dimen>
+	<dimen name="drawer_margin_top">48dp</dimen>
 	
 	<!-- Preview Wallpaper -->
 	<dimen name="status_bar_width">@dimen/match_parent</dimen>
 	<dimen name="status_bar_height">24dp</dimen>
-	<dimen name="frame_width">250dp</dimen>
-	<dimen name="frame_height">450dp</dimen>
+	<dimen name="frame_width">200dp</dimen>
+	<dimen name="frame_height">370dp</dimen>
 	<dimen name="frame_elevation">4dp</dimen>
+	<dimen name="frame_margin_top">30dp</dimen>
 	<dimen name="stat_sys_signal_width">20dp</dimen>
 	<dimen name="stat_sys_signal_height">20dp</dimen>
 	<dimen name="stat_sys_battery_width">30dp</dimen>

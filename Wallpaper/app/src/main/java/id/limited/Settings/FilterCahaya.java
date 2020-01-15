@@ -24,8 +24,6 @@ public class FilterCahaya extends LinearLayout
 
 	private void showViews()
 	{
-		if(Boolean.valueOf((boolean)PreferenceManager.getDefaultSharedPreferences().getBoolean("",false)).booleanValue()){
-			
-		}
+		
 	}
 }

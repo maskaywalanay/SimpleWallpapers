@@ -7,14 +7,14 @@
 	<string name="app_toast_b">Menutup Aplikasi</string>
 	<string name="drawer_facebook_free">Free Facebook</string>
 	<string name="drawer_facebook_sc">Facebook</string>
-	<string name="drawer_facebooklite_sc">Facebook Lite</string>
+	<string name="drawer_messenger_toast">Membuka Messenger</string>
 	<string name="drawer_messenger_sc">Messenger</string>
-	<string name="drawer_messengerlite_sc">Messenger Lite</string>
 	<string name="drawer_youtube_sc">Youtube</string>
-	<string name="drawer_youtubeweb_sc">Youtube Web</string>
 	<string name="drawer_preference">Pengaturan</string>
 	<string name="drawer_exit">Exit</string>
 	<string name="my_sites">Republik Android</string>
+	<string name="ic_btn_wallpaper">Set As Wallpaper</string>
+	<string name="ic_toast_wallpaper">Wallpaper Diterapkan</string>
 	
 	
 </resources>

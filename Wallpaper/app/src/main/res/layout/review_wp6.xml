@@ -4,7 +4,7 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:orientation="vertical"
-	android:background="@drawable/wp_2">
+	android:background="@drawable/wp_6">
 
 	<FrameLayout
 		android:layout_height="match_parent"
@@ -12,17 +12,17 @@
 		android:background="@color/stat_semi_transparent">
 
 		<FrameLayout
+			android:layout_marginTop="25dp"
 			android:layout_height="@dimen/frame_height"
 			android:layout_width="@dimen/frame_width"
 			android:layout_gravity="top|center"
-			android:elevation="@dimen/frame_elevation"
-			android:layout_marginTop="25dp">
+			android:elevation="@dimen/frame_elevation">
 
 			<ImageView
-				android:id="@+id/wallpaper_2"
+				android:id="@+id/wallpaper_6"
 				android:layout_height="match_parent"
 				android:layout_width="match_parent"
-				android:src="@drawable/wp_2"
+				android:src="@drawable/wp_6"
 				android:scaleType="fitXY"/>
 
 			<LinearLayout
@@ -126,7 +126,7 @@
 		</FrameLayout>
 
 		<Button
-			android:id="@+id/setwp_2"
+			android:id="@+id/setwp_6"
 			style="?android:attr/buttonStyleSmall"
 			android:layout_height="wrap_content"
 			android:layout_width="match_parent"

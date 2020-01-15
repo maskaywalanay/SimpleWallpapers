@@ -3,7 +3,7 @@
 	<!-- AppTheme -->
     <style 
 		name="AppTheme" 
-		parent="@style/Theme.AppCompat"/>
+		parent="Theme.AppCompat.Light.NoActionBar"/>
 	
 	<!-- TextStyle A -->
 	<style name="AppTextSatu">

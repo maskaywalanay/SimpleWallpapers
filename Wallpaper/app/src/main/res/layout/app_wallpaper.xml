@@ -17,9 +17,7 @@
 				android:orientation="vertical"
 				android:id="@+id/kontent_wp"
 				android:layout_marginTop="@dimen/konten_wp_margin_top"
-				android:layout_marginBottom="@dimen/konten_wp_margin_bottom"
-				android:paddingTop="@dimen/konten_wp_padding_top"
-				android:paddingBottom="@dimen/konten_wp_padding_bottom">
+				android:layout_marginBottom="@dimen/konten_wp_margin_bottom">
 
 				<LinearLayout
 					android:layout_height="@dimen/konten_wp_height"
